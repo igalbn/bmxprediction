@@ -24,7 +24,7 @@ wiki_links = {
 }
 
 def save_pages():
-    pass
+
     for key in wiki_links.keys():
         for page_link in wiki_links[key]:
             page = requests.get(page_link)
